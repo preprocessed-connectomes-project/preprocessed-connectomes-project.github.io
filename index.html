@@ -4,10 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+    <meta name="description" content="Preprocessed Connectomes Project" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="javascripts/menu_script.js"></script>
     <title>ABIDE Preprocessed</title>
   </head>
 
@@ -18,18 +19,22 @@
         <header class="inner">
           <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
 
-          <h1 id="project_title">ABIDE Preprocessed</h1><br>
+          <h1 id="project_title">Preprocessed Connectomes Project</h1><br>
           <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
                -->    
-          <nav class="nav-global">
-              <ul>
-                  <li class="Overview"><a href="index.html">Overview</a></li>
-                  <li class="Download"><a href="download.html">Download</a></li>
-                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
-                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
-                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
-              </ul>
-          </nav>
+  		<div id='cssmenu'>
+  		<ul>
+  		   <li><a href='#'>Overview</a></li>
+  		   <li class='active'><a href='#'>Datasets</a>
+  		      <ul>
+  		         <li><a href='#'>ABIDE</a></li>
+  		         <li><a href='#'>ADHD-200</a></li>
+  		      </ul>
+  		   </li>
+  		   <li class='active'><a href='#'>Quality Assessment</a>
+  		   <li><a href='#'>View on Github</a></li>
+  		</ul>
+  		</div>
           
           <!--
 
