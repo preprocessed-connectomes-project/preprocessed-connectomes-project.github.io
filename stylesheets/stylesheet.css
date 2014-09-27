@@ -271,7 +271,6 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
   max-width: 800px;
   padding: 20px 10px;
   margin: 0 auto;
@@ -293,7 +292,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #73933d;
+  background: #d75920;
 }
 
 #header_wrap .inner {
@@ -385,7 +384,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #077FB1;
+  background: #d75920;
 }
 
 
@@ -486,7 +485,7 @@ Small Device Styles
   display: none;
 }
 #cssmenu {
-  background: #73933D
+  background: #d75920
 }
 #cssmenu > ul > li {
   float: left;
@@ -588,11 +587,11 @@ Small Device Styles
   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
   padding: 11px 15px;
   width: 160px;
-  font-size: 14px;
+  font-size: 20px;
   text-decoration: none;
   color: #dddddd;
   font-weight: 400;
-  background: #275526;
+  background: #d75920;
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
@@ -698,9 +697,9 @@ Small Device Styles
   #cssmenu #menu-button {
     display: block;
     padding: 17px;
-    color: #dddddd;
+    color: #fff;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 24px;
     /*text-transform: uppercase*/;
     font-weight: 700;
   }
