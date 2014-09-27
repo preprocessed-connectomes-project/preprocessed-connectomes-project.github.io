@@ -239,6 +239,7 @@ hr {
   background: url('../images/bg_hr.png') repeat-x center;
 }
 
+/*
 table {
   border: 1px solid #373737;
   margin-bottom: 20px;
@@ -256,7 +257,7 @@ td {
   padding: 10px;
   border: 1px solid #373737;
  }
-
+*/
 form {
   background: #f2f2f2;
   padding: 20px;
@@ -324,6 +325,7 @@ Full-Width Styles
   color: #fff;
   font-size: 40px;
   font-weight: 700;
+  text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
@@ -461,6 +463,7 @@ Small Device Styles
 #cssmenu ul li,
 #cssmenu ul li a,
 #cssmenu #menu-button {
+  z-index:1000;
   margin: 0px 0px 0px 0px;
   padding: 0;
   border: 0;
@@ -471,6 +474,7 @@ Small Device Styles
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  text-shadow: #111 0px 0px 10px;
 }
 #cssmenu:after,
 #cssmenu > ul:after {
