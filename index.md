@@ -3,27 +3,77 @@ layout: page
 title: Homepage
 ---    
 
-<p>The Preprocessed Connectomes Project (PCP) is pleased to announce the public release and open sharing of preprocessed neuroimaging data from the <a href="http://fcon_1000.projects.nitrc.org/indi/abide">Autism Brain Imaging Data Exchange (ABIDE)</a>. A consortium of the <a href="http://fcon_1000.projects.nitrc.org/indi">International Neuroimaging Datasharing Iniative (INDI)</a>, ABIDE is a collaboration of 16 international imaging sites that have aggregated and are openly sharing neuroimaging data from <strong>539 individuals suffering from  ASD</strong> and <strong>573 typical controls</strong>. These 1112 datsets are composed of structural and resting state functional MRI data along with an extensive array of phenotypic information.</a> 
-    
+<center>
+<img src="images/raw_mont.jpg" border="0" alt="" class="imgframe" />
+</center>
+
+
+<p>The goal of the Preprocessed Connectomes Project is to systematically preprocess the data from the 
+<a href="http://fcon_1000.projects.nitrc.org/" target="_blank">1000 Functional Connectomes Project 
+(FCP)</a> and <a href="http://fcon_1000.projects.nitrc.org/" target="_blank">International Neuroimaging 
+Data-sharing Initiative (INDI)</a> and openly share the results. Initiated in 2011 with the ADHD-200 
+Preprocessed initative, the PCP has grown to include the Beijing Enhanced DTI dataset and ABIDE. To 
+enable the comparison of different preprocessing choices and to accomodate different opinions about 
+the best preprocessings strategies, most of the data is preprocessed using a variety of tools and 
+parameters.</p> 
+
+<p>Data is currently hosted in an <a href="http://aws.amazon.com/s3/" target="_blank">Amazon Web Services 
+Public S3 Bucket</a> and at <a href="http://nitrc.org" target="_blank">NITRC</a>. More information about 
+downloading the data and about the various preprocessing pipelines and strategies employed can be found on 
+the <a href="datasets.html">Datasets</a> page. If you use PCP data in your research, please cite it in your 
+publications along with the specific pipeline that you used. Also, please let us know about your publication 
+so that we can add it to our list of <a href="publications.html">Publications</a>.</p> 
+
+<p>Assessing the quality of data and determining the data that should be excluded from an analysis due to poor 
+quality is difficult. To help address this issue, we have developed a 
+<a href="http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/">Quality Assessment Protocol</a> 
+and have calculated these metrics on the 
+<a href="http://preprocessed-connectomes-project.github.io/abide/quality_assessment.html">ABIDE</a> dataset.</p>
+
+<p>Please direct any comments or questions to the <a href='https://groups.google.com/d/forum/pcp_forum' target="_blank">PCP Forum</a></li>.
+Also, please monitor the forum for updates and bug reports.</p>
+
 <br>
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Credits</h3>
-<hr></hr>
+
+<h4>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Credits</h4>
+<hr>
+
 <p>
     <strong>Preprocessed Connectomes Project Founders</strong><br>
 	  <a href="mailto:cameron.craddock@childmind.org">R. Cameron Craddock</a><sup>1,2</sup>, 
       <a href="mailto:pierre.bellec@criugm.qc.ca">Pierre Bellec</a><sup>3,4</sup><br><br>
 	<strong>Project Coordinator</strong><br>
 	  R. Cameron Craddock<sup>1,2</sup><br><br> 
-</p>
+     <strong>Contributors</strong><br>
+     <i><u>ABIDE Preprocessed:</u></i> Pierre Bellec</a><sup>3,4</sup>, Yassine Benhajali<sup>3,6</sup>,
+         Francois Chouinard<sup>3,8</sup>, Daniel Clark<sup>1</sup>, R. Cameron Craddock</a><sup>1,2</sup>, 
+         Alan Evans<sup>8</sup>, 
+         Steven Giavasis<sup>1,2</sup>, Budhachandra Khundrakpam<sup>8</sup>,  
+         John Lewis<sup>8</sup>,
+         Qingyang Li<sup>1</sup>, Zarrar Shezhad<sup>2,5</sup>, Aimi Watanabe<sup>1</sup>, Ting Xu<sup>7</sup>,
+         Chao-Gan Yan<sup>2</sup>,
+         Zhen Yang<sup>1,2</sup>, Xinian Zuo<sup>7</sup>, the <a href="http://fcon_1000.projects.nitrc.org/indi/abide/" target="_blank">ABIDE consortium</a>.<br>
+    <i><u>ADHD-200 Preprocessed:</u></i> Pierre Bellec</a><sup>3,4</sup>, Carlton Chu, R. Cameron Craddock</a><sup>1,2</sup>, 
+         the <a href="http://fcon_1000.projects.nitrc.org/indi/adhd200/index.html" target="_blank">ADHD-200 consortium</a>.<br>
+    <i><u>Beijing Enhanced DTI Preprocessed:</u></i> András Jakab<sup>10,11</sup>, Yufeng Zang<sup>12</sup>, the <a href="http://fcon_1000.projects.nitrc.org/" target="_blank">International Neuroimaging Data-sharing Initiative (INDI)</a>.<br><br>
+    <strong>Data Hosting</strong><br>
+    Data sharing is made possible with the generous support of <a href="http://www.nitrc.org/">NITRC</a> and <a href="http://aws.amazon.com/">Amazon Web Services</a>. 
+  </p>
 
-<hr></hr>
+<hr>
 <p><small>
    <sup>1</sup><a href="http://www.childmind.org/en/center-for-developing-brain/">Center for the Developing Brain</a>, Child Mind Institute</a>, New York, New York, United States of America,
     <sup>2</sup><a href="http://www.rfmh.org/nki/">Nathan S. Kline Institute for Psychiatric Research</a>, Orangeburg, New York, United States of America,
     <sup>3</sup><a href="http://www.criugm.qc.ca/">Centre de recherche de l'institut de gériatrie de Montréal</a>, Montréal, Québec, Canada,
     <sup>4</sup><a href="http://diro.umontreal.ca/accueil/">Départmenet d'informatique et de recherche
-opérationnelle</a>, Université de Montréal, Montréal, Québec, Canada, 
+opérationnelle</a>, Université de Montréal, Montréal, Québec, Canada,
+    <sup>5</sup><a href="http://psychology.yale.edu/">Department of Pyschology</a>, Yale University, New Haven, CT, United States of America,
+    <sup>6</sup><a href="http://anthropo.umontreal.ca/accueil/"> Département d'anthropologie</a>,Université de Montréal, Montréal, Québec, Canada,
+    <sup>7</sup><a href="http://lfcd.psych.ac.cn/">Laboratory for Functional Connectome and Development</a>, China Key Laboratory of Behavioral Science, Magnetic Resonance Imaging Research Center, Institute of Psychology, Chinese Academy of Sciences, Beijing, China, 
+    <sup>8</sup><a href="http://www.bic.mni.mcgill.ca/">The McConnell Brain Imaging Centre</a>, Montreal Neurological Insitute, McGill University, Montréal, Québec, Canada, 
+    <sup>9</sup><a href="http://www.aboutourkids.org/research/institutes_programs/phyllis_green_randolph_cowen_institute_pediatric_neuroscience">Phyllis Green and Randolph Co̅wen Institute for Pediatric Neuroscience</a> at the NYU Child Study Center, New York University Langone Medical Center, New York, New York, United States of America,
+    <sup>10</sup><a href="http://www.unideb.hu/portal/en">University of Debrecen</a>, Hungary, <sup>11</sup><a href="http://http://www.vision.ee.ethz.ch/">Computer Vision Laboratory</a>, ETH, Zürich, Switzerland, 
+    <sup>11</sup>Beijing Normal University, State Key Laboratory of Cognitive Neuroscience and Learning
 </small></p>
-      </section>
-    </div>
+     
